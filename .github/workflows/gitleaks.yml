@@ -1,5 +1,6 @@
 name: gitleaks
-on: pull_request
+on:
+  push:
 
 jobs:
   gitleaks:
